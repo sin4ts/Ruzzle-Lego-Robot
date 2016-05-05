@@ -1,0 +1,1688 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001PlaySound	6	1	0	4	44
+1	__signed_stack_001main	6	1	4	4	32
+2	__signed_stack_002goToCoordinate	6	1	8	4	8
+3	__signed_stack_002PlaySound	6	1	12	4	14
+4	__signed_stack_001rotateMotorToDegree	6	1	16	4	2
+5	__signed_stack_001rotateMotorsToDegrees	6	1	20	4	4
+6	__signed_stack_003PlaySound	6	1	24	4	14
+7	__D0PosRegSetAngle_inline_rotateMotorToDegree	6	1	28	4	2
+8	__D0PosRegSetAngle_inline_rotateMotorsToDegrees	6	1	32	4	4
+9	__D0PosRegEnable_inline_main	6	1	36	4	6
+10	__D0PosRegSetMax_inline_main	6	1	40	4	6
+11	__signed_stack_001goToCoordinate	6	1	44	4	16
+12	__signed_stack_002checkMessage	6	1	48	4	6
+13	__signed_stack_001checkMessage	6	1	52	4	8
+14	__unsigned_stack_008PosRegEnable_inline_main	5	1	56	4	6
+15	__unsigned_stack_007PosRegEnable_inline_main	5	1	60	4	6
+16	__unsigned_stack_006PosRegEnable_inline_main	5	1	64	4	6
+17	__signed_stack_001PosRegSetAngle_inline_rotateMotorsToDegrees	6	1	68	4	4
+18	__unsigned_stack_002PosRegSetMax_inline_main	5	1	72	4	6
+19	__unsigned_stack_001PosRegSetMax_inline_main	5	1	76	4	6
+20	__signed_stack_001PosRegSetAngle_inline_rotateMotorToDegree	6	1	80	4	2
+21	__signed_stack_001PosRegEnable_inline_main	6	1	84	4	6
+22	__signed_stack_002testRoute	6	1	88	4	3
+23	__signed_stack_001testRoute	6	1	92	4	4
+24	__signed_stack_002PosRegEnable_inline_main	6	1	96	4	6
+25	__signed_stack_005PosRegEnable_inline_main	6	1	100	4	6
+26	__signed_stack_004PosRegEnable_inline_main	6	1	104	4	6
+27	__signed_stack_003PosRegEnable_inline_main	6	1	108	4	6
+28	__PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorToDegree	6	1	112	4	2
+29	__SPTArgsMutex	9	0	116	4	14
+30	__PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorsToDegrees	6	1	120	4	4
+31	__DU0checkMessage	5	1	124	4	6
+32	__D0checkMessage	6	1	128	4	21
+33	__Wait_7qG2_ms_7qG2_000_inline_PosRegSetMax_inline_main	5	1	132	4	6
+34	__Wait_7qG2_ms_7qG2_000_inline_PosRegEnable_inline_main	5	1	136	4	6
+35	__Wait_7qG2_ms_7qG2_000_inline_rotateMotorsToDegrees	5	1	140	4	2
+36	__constVal131073	6	0	144	4	2
+37	__D0rotateMotorsToDegrees	6	1	148	4	8
+38	__D0PlaySound	6	1	152	4	69
+39	__DU0main	5	1	156	4	4
+40	__Wait_7qG2_ms_7qG2_000_inline_rotateMotorToDegree	5	1	160	4	2
+41	__D0testRoute	6	1	164	4	10
+42	__D0rotateMotorToDegree	6	1	168	4	4
+43	__D0main	6	1	172	4	62
+44	__D0goToCoordinate	6	1	176	4	32
+45	__rotateMotorToDegree_7qG2_degree_7qG2_000	4	1	180	2	9
+46	__rotateMotorToDegree_7qG2_motor_7qG2_000	4	1	182	2	9
+47	__main_7qG2_y_7qG2_005	4	1	184	2	3
+48	__main_7qG2_x_7qG2_005	4	1	186	2	3
+49	__testRoute_7qG2_i_7qG2_001	4	1	188	2	6
+50	oldY	4	0	190	2	3
+51	oldX	4	0	192	2	3
+52	OUTBOX	4	0	194	2	1
+53	INBOX	4	1	196	2	1
+54	__main_7qG2_i_7qG2_003	4	1	198	2	10
+55	__goToCoordinate_7qG2_sX_7qG2_000	4	1	200	2	8
+56	__goToCoordinate_7qG2_sY_7qG2_000	4	1	202	2	8
+57	__rotateMotorsToDegrees_7qG2_degreeB_7qG2_000	4	1	204	2	3
+58	__rotateMotorsToDegrees_7qG2_motorB_7qG2_000	4	1	206	2	3
+59	__rotateMotorsToDegrees_7qG2_degreeA_7qG2_000	4	1	208	2	3
+60	__main_7qG2_X_7qG2_001	4	1	210	2	12
+61	__main_7qG2_Y_7qG2_001	4	1	212	2	12
+62	__rotateMotorsToDegrees_7qG2_motorA_7qG2_000	4	1	214	2	3
+63	__constValNeg410	4	0	216	2	1
+64	lengthAllRoutes	4	1	218	2	4
+65	__PlaySound_7qG2_i_7qG2_001	4	1	220	2	15
+66	__PlaySound_7qG2_aCode_7qG2_000	4	1	222	2	7
+67	degreeBetweenXTile	4	0	224	2	2
+68	degreeBetweenYTile	4	0	226	2	2
+69	__PosRegEnable_7qG2_i_7qG2_000_inline_main	1	1	228	1	6
+70	__PosRegSetMax_7qG2_max_speed_7qG2_000_inline_main	1	1	229	1	6
+71	__PosRegSetMax_7qG2_output_7qG2_000_inline_main	1	1	230	1	6
+72	__PosRegSetMax_7qG2_max_acceleration_7qG2_000_inline_main	1	1	231	1	6
+73	__PosRegEnable_7qG2_output_7qG2_000_inline_main	1	1	232	1	6
+74	__ClearLine_7qG2_line_7qG2_000_inline_checkMessage	1	1	233	1	2
+75	__PosRegEnable_7qG2_p_7qG2_000_inline_main	1	1	234	1	6
+76	__constVal97	2	0	235	1	1
+77	__rotateMotorsToDegrees_return	1	1	236	1	3
+78	__constValNeg100	2	0	237	1	2
+79	__PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorsToDegrees	1	1	238	1	4
+80	__goToCoordinate_return	1	1	239	1	5
+81	__constVal96	2	0	240	1	2
+82	__constVal10	2	0	241	1	1
+83	____initialize_global_data_return	1	1	242	1	3
+84	__rotateMotorToDegree_return	1	1	243	1	9
+85	__PlaySound_return	1	1	244	1	3
+86	__constVal0	2	1	245	1	3
+87	__PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorToDegree	1	1	246	1	2
+88	newRoute	1	1	247	1	4
+89	__constVal32	2	0	248	1	2
+90	__testRoute_return	1	1	249	1	3
+91	__constVal1	2	0	250	1	9
+92	__checkMessage_7qG2_checkInformation_7qG2_000	1	1	251	1	2
+93	__checkMessage_7qG2_checkPath_7qG2_000	1	1	252	1	5
+94	__PosRegEnable_7qG2_d_7qG2_000_inline_main	1	1	253	1	6
+95	__checkMessage_return	1	1	254	1	4
+96	__MRArgs	8	0	4	8	5
+97	__MRArgs.Result	2	1	256	1	5
+98	__MRArgs.QueueID	1	1	257	1	5
+99	__MRArgs.Remove	1	1	258	1	5
+100	__MRArgs.Message	7	0	260	4	5
+101	__MRArgs.Message.Message_type	1	0	0	1	0
+102	__SPTArgs	8	0	5	8	42
+103	__SPTArgs.Result	2	1	264	1	42
+104	__SPTArgs.Frequency	3	1	266	2	42
+105	__SPTArgs.Duration	3	1	268	2	42
+106	__SPTArgs.Loop	1	1	270	1	42
+107	__SPTArgs.Volume	1	1	271	1	42
+108	__IOMWBIArgs	8	0	4	16	8
+109	__IOMWBIArgs.Result	2	1	272	1	8
+110	__IOMWBIArgs.ModuleID	5	1	276	4	8
+111	__IOMWBIArgs.Offset	3	1	280	2	8
+112	__IOMWBIArgs.Buffer	7	0	282	4	8
+113	__IOMWBIArgs.Buffer.Buffer_type	1	0	0	1	0
+114	__TextOutArgs	8	0	4	16	23
+115	__TextOutArgs.Result	2	1	284	1	23
+116	__TextOutArgs.Location	8	0	2	4	23
+117	__TextOutArgs.Location.X	4	1	288	2	23
+118	__TextOutArgs.Location.Y	4	1	290	2	23
+119	__TextOutArgs.Text	7	0	292	4	23
+120	__TextOutArgs.Text.Text_type	1	0	0	1	0
+121	__TextOutArgs.Options	5	1	296	4	23
+122	__MWArgs	8	0	3	8	4
+123	__MWArgs.Result	2	1	300	1	4
+124	__MWArgs.QueueID	1	1	301	1	4
+125	__MWArgs.Message	7	0	302	4	4
+126	__MWArgs.Message.Message_type	1	0	0	1	0
+127	__BlankLine	7	0	304	4	1
+128	__BlankLine.__BlankLine_type	1	0	0	1	0
+129	__IOMWFlattenBuf	7	0	306	4	4
+130	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+131	__constStr0009	7	0	308	4	1
+132	__constStr0009.__constStr0009_type	1	1	0	1	0
+133	__checkMessage_7qG2_buffer1_7qG2_000	7	0	310	4	4
+134	__checkMessage_7qG2_buffer1_7qG2_000.__checkMessage_7qG2_buffer1_7qG2_000_type	1	0	0	1	0
+135	__constStr0010	7	0	312	4	1
+136	__constStr0010.__constStr0010_type	1	1	0	1	0
+137	__constStr0012	7	0	314	4	1
+138	__constStr0012.__constStr0012_type	1	1	0	1	0
+139	__constStr0011	7	0	316	4	1
+140	__constStr0011.__constStr0011_type	1	1	0	1	0
+141	moves	7	0	318	4	7
+142	moves.moves_type	4	0	0	2	0
+143	allRoutes	7	0	320	4	3
+144	allRoutes.allRoutes_type	1	0	0	1	0
+145	__strretvaltestRoute	7	0	322	4	2
+146	__strretvaltestRoute.__strretvaltestRoute_type	1	0	0	1	0
+147	__checkMessage_7qG2_buffer_7qG2_000	7	0	324	4	6
+148	__checkMessage_7qG2_buffer_7qG2_000.__checkMessage_7qG2_buffer_7qG2_000_type	1	0	0	1	0
+149	__strbuftestRoute	7	0	326	4	6
+150	__strbuftestRoute.__strbuftestRoute_type	1	0	0	1	0
+151	__strbufcheckMessage	7	0	328	4	32
+152	__strbufcheckMessage.__strbufcheckMessage_type	1	0	0	1	0
+153	__constStr0017	7	0	330	4	1
+154	__constStr0017.__constStr0017_type	1	1	0	1	0
+155	__strtmpbufcheckMessage	7	0	332	4	8
+156	__strtmpbufcheckMessage.__strtmpbufcheckMessage_type	1	0	0	1	0
+157	__ArrHelper__checkMessage_244_0	7	0	334	4	2
+158	__ArrHelper__checkMessage_244_0.__ArrHelper__checkMessage_244_0_type	1	0	0	1	0
+159	__ArrHelper__checkMessage_244_1	7	0	336	4	2
+160	__ArrHelper__checkMessage_244_1.__ArrHelper__checkMessage_244_1_type	1	0	0	1	0
+161	__strretvalcheckMessage	7	0	338	4	2
+162	__strretvalcheckMessage.__strretvalcheckMessage_type	1	0	0	1	0
+163	__constStr0013	7	0	340	4	1
+164	__constStr0013.__constStr0013_type	1	1	0	1	0
+165	__constStr0014	7	0	342	4	1
+166	__constStr0014.__constStr0014_type	1	1	0	1	0
+167	__constStr0016	7	0	344	4	1
+168	__constStr0016.__constStr0016_type	1	1	0	1	0
+169	__constStr0015	7	0	346	4	1
+170	__constStr0015.__constStr0015_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	132	0	#line 132 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	133	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	132	2	#line 132 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	132	2	#line 132 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	133	2	#pragma macro 8
+0	133	2		mov __IOMWBIArgs.ModuleID, __constVal131073
+0	133	4		mov __IOMWBIArgs.Offset, __constVal96
+0	133	6		flatten __IOMWFlattenBuf, __constVal10
+0	133	9		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	133	12		syscall 79, __IOMWBIArgs
+0	7862	15	#line 7862 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	132	15	#line 132 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	132	15	#line 132 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	133	15	#line 133 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	134	15	#pragma macro 8
+0	134	15		mov __IOMWBIArgs.ModuleID, __constVal131073
+0	134	17		mov __IOMWBIArgs.Offset, __constVal97
+0	134	19		flatten __IOMWFlattenBuf, __constVal1
+0	134	22		strtoarr __IOMWBIArgs.Buffer, __IOMWFlattenBuf
+0	134	25		syscall 79, __IOMWBIArgs
+0	7866	28	#line 7866 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	133	28	#line 133 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	133	28	#line 133 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	134	28	#line 134 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	135	28		set __PosRegSetMax_7qG2_output_7qG2_000_inline_main, 0
+0	134	31	#line 134 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	134	31	#line 134 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	135	31		set __PosRegSetMax_7qG2_max_speed_7qG2_000_inline_main, 100
+0	134	34	#line 134 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	134	34	#line 134 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	135	34		set __PosRegSetMax_7qG2_max_acceleration_7qG2_000_inline_main, 100
+0	134	37	#line 134 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	20954	37	#line 20954 "NXCDefs.h"
+0	20955	37		mov __unsigned_stack_001PosRegSetMax_inline_main, __PosRegSetMax_7qG2_max_speed_7qG2_000_inline_main
+0	20954	39	#line 20954 "NXCDefs.h"
+0	20955	39	#line 20955 "NXCDefs.h"
+0	20956	39		mov __unsigned_stack_002PosRegSetMax_inline_main, __PosRegSetMax_7qG2_max_acceleration_7qG2_000_inline_main
+0	20955	41	#line 20955 "NXCDefs.h"
+0	20955	41	#line 20955 "NXCDefs.h"
+0	20956	41		set __D0PosRegSetMax_inline_main, 16
+0	20956	44	#line 20956 "NXCDefs.h"
+0	20956	44	#line 20956 "NXCDefs.h"
+0	20957	44		setout __PosRegSetMax_7qG2_output_7qG2_000_inline_main, 16, __unsigned_stack_001PosRegSetMax_inline_main, 17, __unsigned_stack_002PosRegSetMax_inline_main, 0, __D0PosRegSetMax_inline_main
+0	20956	53	#line 20956 "NXCDefs.h"
+0	20956	53	#line 20956 "NXCDefs.h"
+0	20956	53	#line 20956 "NXCDefs.h"
+0	20956	53	#line 20956 "NXCDefs.h"
+0	20956	53	#line 20956 "NXCDefs.h"
+0	20956	53	#line 20956 "NXCDefs.h"
+0	20956	53	#line 20956 "NXCDefs.h"
+0	20957	53		set __Wait_7qG2_ms_7qG2_000_inline_PosRegSetMax_inline_main, 2
+0	20956	56	#line 20956 "NXCDefs.h"
+0	8551	56	#line 8551 "NXCDefs.h"
+0	8552	56		waitv __Wait_7qG2_ms_7qG2_000_inline_PosRegSetMax_inline_main
+0	8551	58	#line 8551 "NXCDefs.h"
+0	20957	58	#line 20957 "NXCDefs.h"
+0	135	58	#line 135 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	135	58	#line 135 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	136	58		set __PosRegSetMax_7qG2_output_7qG2_000_inline_main, 1
+0	135	61	#line 135 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	135	61	#line 135 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	136	61		set __PosRegSetMax_7qG2_max_speed_7qG2_000_inline_main, 100
+0	135	64	#line 135 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	135	64	#line 135 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	136	64		set __PosRegSetMax_7qG2_max_acceleration_7qG2_000_inline_main, 100
+0	135	67	#line 135 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	20954	67	#line 20954 "NXCDefs.h"
+0	20955	67		mov __unsigned_stack_001PosRegSetMax_inline_main, __PosRegSetMax_7qG2_max_speed_7qG2_000_inline_main
+0	20954	69	#line 20954 "NXCDefs.h"
+0	20955	69	#line 20955 "NXCDefs.h"
+0	20956	69		mov __unsigned_stack_002PosRegSetMax_inline_main, __PosRegSetMax_7qG2_max_acceleration_7qG2_000_inline_main
+0	20955	71	#line 20955 "NXCDefs.h"
+0	20955	71	#line 20955 "NXCDefs.h"
+0	20956	71		set __D0PosRegSetMax_inline_main, 16
+0	20956	74	#line 20956 "NXCDefs.h"
+0	20956	74	#line 20956 "NXCDefs.h"
+0	20957	74		setout __PosRegSetMax_7qG2_output_7qG2_000_inline_main, 16, __unsigned_stack_001PosRegSetMax_inline_main, 17, __unsigned_stack_002PosRegSetMax_inline_main, 0, __D0PosRegSetMax_inline_main
+0	20956	83	#line 20956 "NXCDefs.h"
+0	20956	83	#line 20956 "NXCDefs.h"
+0	20956	83	#line 20956 "NXCDefs.h"
+0	20956	83	#line 20956 "NXCDefs.h"
+0	20956	83	#line 20956 "NXCDefs.h"
+0	20956	83	#line 20956 "NXCDefs.h"
+0	20956	83	#line 20956 "NXCDefs.h"
+0	20957	83		set __Wait_7qG2_ms_7qG2_000_inline_PosRegSetMax_inline_main, 2
+0	20956	86	#line 20956 "NXCDefs.h"
+0	8551	86	#line 8551 "NXCDefs.h"
+0	8552	86		waitv __Wait_7qG2_ms_7qG2_000_inline_PosRegSetMax_inline_main
+0	8551	88	#line 8551 "NXCDefs.h"
+0	20957	88	#line 20957 "NXCDefs.h"
+0	136	88	#line 136 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	136	88	#line 136 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	137	88		set __PosRegSetMax_7qG2_output_7qG2_000_inline_main, 2
+0	136	91	#line 136 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	136	91	#line 136 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	137	91		set __PosRegSetMax_7qG2_max_speed_7qG2_000_inline_main, 100
+0	136	94	#line 136 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	136	94	#line 136 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	137	94		set __PosRegSetMax_7qG2_max_acceleration_7qG2_000_inline_main, 100
+0	136	97	#line 136 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	20954	97	#line 20954 "NXCDefs.h"
+0	20955	97		mov __unsigned_stack_001PosRegSetMax_inline_main, __PosRegSetMax_7qG2_max_speed_7qG2_000_inline_main
+0	20954	99	#line 20954 "NXCDefs.h"
+0	20955	99	#line 20955 "NXCDefs.h"
+0	20956	99		mov __unsigned_stack_002PosRegSetMax_inline_main, __PosRegSetMax_7qG2_max_acceleration_7qG2_000_inline_main
+0	20955	101	#line 20955 "NXCDefs.h"
+0	20955	101	#line 20955 "NXCDefs.h"
+0	20956	101		set __D0PosRegSetMax_inline_main, 16
+0	20956	104	#line 20956 "NXCDefs.h"
+0	20956	104	#line 20956 "NXCDefs.h"
+0	20957	104		setout __PosRegSetMax_7qG2_output_7qG2_000_inline_main, 16, __unsigned_stack_001PosRegSetMax_inline_main, 17, __unsigned_stack_002PosRegSetMax_inline_main, 0, __D0PosRegSetMax_inline_main
+0	20956	113	#line 20956 "NXCDefs.h"
+0	20956	113	#line 20956 "NXCDefs.h"
+0	20956	113	#line 20956 "NXCDefs.h"
+0	20956	113	#line 20956 "NXCDefs.h"
+0	20956	113	#line 20956 "NXCDefs.h"
+0	20956	113	#line 20956 "NXCDefs.h"
+0	20956	113	#line 20956 "NXCDefs.h"
+0	20957	113		set __Wait_7qG2_ms_7qG2_000_inline_PosRegSetMax_inline_main, 2
+0	20956	116	#line 20956 "NXCDefs.h"
+0	8551	116	#line 8551 "NXCDefs.h"
+0	8552	116		waitv __Wait_7qG2_ms_7qG2_000_inline_PosRegSetMax_inline_main
+0	8551	118	#line 8551 "NXCDefs.h"
+0	20957	118	#line 20957 "NXCDefs.h"
+0	138	118	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	138	118	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	139	118		set __PosRegEnable_7qG2_output_7qG2_000_inline_main, 0
+0	138	121	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	138	121	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	139	121		set __PosRegEnable_7qG2_p_7qG2_000_inline_main, 96
+0	138	124	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	138	124	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	139	124		set __PosRegEnable_7qG2_i_7qG2_000_inline_main, 32
+0	138	127	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	138	127	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	139	127		set __PosRegEnable_7qG2_d_7qG2_000_inline_main, 32
+0	138	130	#line 138 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	20889	130	#line 20889 "NXCDefs.h"
+0	20890	130		set __signed_stack_001PosRegEnable_inline_main, 7
+0	20889	133	#line 20889 "NXCDefs.h"
+0	20890	133	#line 20890 "NXCDefs.h"
+0	20891	133		set __signed_stack_002PosRegEnable_inline_main, 4
+0	20890	136	#line 20890 "NXCDefs.h"
+0	20891	136	#line 20891 "NXCDefs.h"
+0	20892	136		set __signed_stack_003PosRegEnable_inline_main, 32
+0	20891	139	#line 20891 "NXCDefs.h"
+0	20892	139	#line 20892 "NXCDefs.h"
+0	20893	139		set __signed_stack_004PosRegEnable_inline_main, 0
+0	20892	142	#line 20892 "NXCDefs.h"
+0	20893	142	#line 20893 "NXCDefs.h"
+0	20894	142		set __signed_stack_005PosRegEnable_inline_main, 0
+0	20893	145	#line 20893 "NXCDefs.h"
+0	20893	145	#line 20893 "NXCDefs.h"
+0	20894	145		mov __unsigned_stack_006PosRegEnable_inline_main, __PosRegEnable_7qG2_p_7qG2_000_inline_main
+0	20893	147	#line 20893 "NXCDefs.h"
+0	20893	147	#line 20893 "NXCDefs.h"
+0	20894	147		mov __unsigned_stack_007PosRegEnable_inline_main, __PosRegEnable_7qG2_i_7qG2_000_inline_main
+0	20893	149	#line 20893 "NXCDefs.h"
+0	20894	149	#line 20894 "NXCDefs.h"
+0	20895	149		mov __unsigned_stack_008PosRegEnable_inline_main, __PosRegEnable_7qG2_d_7qG2_000_inline_main
+0	20894	151	#line 20894 "NXCDefs.h"
+0	20894	151	#line 20894 "NXCDefs.h"
+0	20895	151		set __D0PosRegEnable_inline_main, 27
+0	20895	154	#line 20895 "NXCDefs.h"
+0	20895	154	#line 20895 "NXCDefs.h"
+0	20896	154		setout __PosRegEnable_7qG2_output_7qG2_000_inline_main, 1, __signed_stack_001PosRegEnable_inline_main, 8, __signed_stack_002PosRegEnable_inline_main, 6, __signed_stack_003PosRegEnable_inline_main, 2, __signed_stack_004PosRegEnable_inline_main, 7, __signed_stack_005PosRegEnable_inline_main, 10, __unsigned_stack_006PosRegEnable_inline_main, 11, __unsigned_stack_007PosRegEnable_inline_main, 12, __unsigned_stack_008PosRegEnable_inline_main, 0, __D0PosRegEnable_inline_main
+0	20895	175	#line 20895 "NXCDefs.h"
+0	20895	175	#line 20895 "NXCDefs.h"
+0	20895	175	#line 20895 "NXCDefs.h"
+0	20895	175	#line 20895 "NXCDefs.h"
+0	20895	175	#line 20895 "NXCDefs.h"
+0	20895	175	#line 20895 "NXCDefs.h"
+0	20895	175	#line 20895 "NXCDefs.h"
+0	20896	175		set __Wait_7qG2_ms_7qG2_000_inline_PosRegEnable_inline_main, 2
+0	20895	178	#line 20895 "NXCDefs.h"
+0	8551	178	#line 8551 "NXCDefs.h"
+0	8552	178		waitv __Wait_7qG2_ms_7qG2_000_inline_PosRegEnable_inline_main
+0	8551	180	#line 8551 "NXCDefs.h"
+0	20896	180	#line 20896 "NXCDefs.h"
+0	139	180	#line 139 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	139	180	#line 139 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	140	180		set __PosRegEnable_7qG2_output_7qG2_000_inline_main, 1
+0	139	183	#line 139 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	140	183	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	141	183		mov __PosRegEnable_7qG2_p_7qG2_000_inline_main, __constVal96
+0	140	185	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	141	185		mov __PosRegEnable_7qG2_i_7qG2_000_inline_main, __constVal32
+0	140	187	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	141	187		mov __PosRegEnable_7qG2_d_7qG2_000_inline_main, __constVal32
+0	20889	189	#line 20889 "NXCDefs.h"
+0	20890	189		set __signed_stack_001PosRegEnable_inline_main, 7
+0	20889	192	#line 20889 "NXCDefs.h"
+0	20890	192	#line 20890 "NXCDefs.h"
+0	20891	192		set __signed_stack_002PosRegEnable_inline_main, 4
+0	20890	195	#line 20890 "NXCDefs.h"
+0	20891	195	#line 20891 "NXCDefs.h"
+0	20892	195		set __signed_stack_003PosRegEnable_inline_main, 32
+0	20891	198	#line 20891 "NXCDefs.h"
+0	20892	198	#line 20892 "NXCDefs.h"
+0	20893	198		set __signed_stack_004PosRegEnable_inline_main, 0
+0	20892	201	#line 20892 "NXCDefs.h"
+0	20893	201	#line 20893 "NXCDefs.h"
+0	20894	201		set __signed_stack_005PosRegEnable_inline_main, 0
+0	20893	204	#line 20893 "NXCDefs.h"
+0	20893	204	#line 20893 "NXCDefs.h"
+0	20894	204		mov __unsigned_stack_006PosRegEnable_inline_main, __PosRegEnable_7qG2_p_7qG2_000_inline_main
+0	20893	206	#line 20893 "NXCDefs.h"
+0	20893	206	#line 20893 "NXCDefs.h"
+0	20894	206		mov __unsigned_stack_007PosRegEnable_inline_main, __PosRegEnable_7qG2_i_7qG2_000_inline_main
+0	20893	208	#line 20893 "NXCDefs.h"
+0	20894	208	#line 20894 "NXCDefs.h"
+0	20895	208		mov __unsigned_stack_008PosRegEnable_inline_main, __PosRegEnable_7qG2_d_7qG2_000_inline_main
+0	20894	210	#line 20894 "NXCDefs.h"
+0	20894	210	#line 20894 "NXCDefs.h"
+0	20895	210		set __D0PosRegEnable_inline_main, 27
+0	20895	213	#line 20895 "NXCDefs.h"
+0	20895	213	#line 20895 "NXCDefs.h"
+0	20896	213		setout __PosRegEnable_7qG2_output_7qG2_000_inline_main, 1, __signed_stack_001PosRegEnable_inline_main, 8, __signed_stack_002PosRegEnable_inline_main, 6, __signed_stack_003PosRegEnable_inline_main, 2, __signed_stack_004PosRegEnable_inline_main, 7, __signed_stack_005PosRegEnable_inline_main, 10, __unsigned_stack_006PosRegEnable_inline_main, 11, __unsigned_stack_007PosRegEnable_inline_main, 12, __unsigned_stack_008PosRegEnable_inline_main, 0, __D0PosRegEnable_inline_main
+0	20895	234	#line 20895 "NXCDefs.h"
+0	20895	234	#line 20895 "NXCDefs.h"
+0	20895	234	#line 20895 "NXCDefs.h"
+0	20895	234	#line 20895 "NXCDefs.h"
+0	20895	234	#line 20895 "NXCDefs.h"
+0	20895	234	#line 20895 "NXCDefs.h"
+0	20895	234	#line 20895 "NXCDefs.h"
+0	20896	234		set __Wait_7qG2_ms_7qG2_000_inline_PosRegEnable_inline_main, 2
+0	20895	237	#line 20895 "NXCDefs.h"
+0	8551	237	#line 8551 "NXCDefs.h"
+0	8552	237		waitv __Wait_7qG2_ms_7qG2_000_inline_PosRegEnable_inline_main
+0	8551	239	#line 8551 "NXCDefs.h"
+0	20896	239	#line 20896 "NXCDefs.h"
+0	140	239	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	140	239	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	141	239		set __PosRegEnable_7qG2_output_7qG2_000_inline_main, 2
+0	140	242	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	140	242	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	141	242		set __PosRegEnable_7qG2_p_7qG2_000_inline_main, 96
+0	140	245	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	140	245	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	141	245		set __PosRegEnable_7qG2_i_7qG2_000_inline_main, 32
+0	140	248	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	140	248	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	141	248		set __PosRegEnable_7qG2_d_7qG2_000_inline_main, 32
+0	140	251	#line 140 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	20889	251	#line 20889 "NXCDefs.h"
+0	20890	251		set __signed_stack_001PosRegEnable_inline_main, 7
+0	20889	254	#line 20889 "NXCDefs.h"
+0	20890	254	#line 20890 "NXCDefs.h"
+0	20891	254		set __signed_stack_002PosRegEnable_inline_main, 4
+0	20890	257	#line 20890 "NXCDefs.h"
+0	20891	257	#line 20891 "NXCDefs.h"
+0	20892	257		set __signed_stack_003PosRegEnable_inline_main, 32
+0	20891	260	#line 20891 "NXCDefs.h"
+0	20892	260	#line 20892 "NXCDefs.h"
+0	20893	260		set __signed_stack_004PosRegEnable_inline_main, 0
+0	20892	263	#line 20892 "NXCDefs.h"
+0	20893	263	#line 20893 "NXCDefs.h"
+0	20894	263		set __signed_stack_005PosRegEnable_inline_main, 0
+0	20893	266	#line 20893 "NXCDefs.h"
+0	20893	266	#line 20893 "NXCDefs.h"
+0	20894	266		mov __unsigned_stack_006PosRegEnable_inline_main, __PosRegEnable_7qG2_p_7qG2_000_inline_main
+0	20893	268	#line 20893 "NXCDefs.h"
+0	20893	268	#line 20893 "NXCDefs.h"
+0	20894	268		mov __unsigned_stack_007PosRegEnable_inline_main, __PosRegEnable_7qG2_i_7qG2_000_inline_main
+0	20893	270	#line 20893 "NXCDefs.h"
+0	20894	270	#line 20894 "NXCDefs.h"
+0	20895	270		mov __unsigned_stack_008PosRegEnable_inline_main, __PosRegEnable_7qG2_d_7qG2_000_inline_main
+0	20894	272	#line 20894 "NXCDefs.h"
+0	20894	272	#line 20894 "NXCDefs.h"
+0	20895	272		set __D0PosRegEnable_inline_main, 27
+0	20895	275	#line 20895 "NXCDefs.h"
+0	20895	275	#line 20895 "NXCDefs.h"
+0	20896	275		setout __PosRegEnable_7qG2_output_7qG2_000_inline_main, 1, __signed_stack_001PosRegEnable_inline_main, 8, __signed_stack_002PosRegEnable_inline_main, 6, __signed_stack_003PosRegEnable_inline_main, 2, __signed_stack_004PosRegEnable_inline_main, 7, __signed_stack_005PosRegEnable_inline_main, 10, __unsigned_stack_006PosRegEnable_inline_main, 11, __unsigned_stack_007PosRegEnable_inline_main, 12, __unsigned_stack_008PosRegEnable_inline_main, 0, __D0PosRegEnable_inline_main
+0	20895	296	#line 20895 "NXCDefs.h"
+0	20895	296	#line 20895 "NXCDefs.h"
+0	20895	296	#line 20895 "NXCDefs.h"
+0	20895	296	#line 20895 "NXCDefs.h"
+0	20895	296	#line 20895 "NXCDefs.h"
+0	20895	296	#line 20895 "NXCDefs.h"
+0	20895	296	#line 20895 "NXCDefs.h"
+0	20896	296		set __Wait_7qG2_ms_7qG2_000_inline_PosRegEnable_inline_main, 2
+0	20895	299	#line 20895 "NXCDefs.h"
+0	8551	299	#line 8551 "NXCDefs.h"
+0	8552	299		waitv __Wait_7qG2_ms_7qG2_000_inline_PosRegEnable_inline_main
+0	8551	301	#line 8551 "NXCDefs.h"
+0	20896	301	#line 20896 "NXCDefs.h"
+0	143	301	#line 143 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	143	301	#line 143 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	144	301		set __D0main, 1
+0	144	304	#line 144 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	145	304		tst 5, __D0main, __D0main
+0	144	307	#line 144 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	145	307		brtst 4, __ASM_Label_802, __D0main
+0	145	310	#line 145 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	146	310		subcall checkMessage, __checkMessage_return
+0	145	312	#line 145 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	146	312	#line 146 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	147	312		set __main_7qG2_X_7qG2_001, 0
+0	146	315	#line 146 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	147	315	#line 147 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	148	315		set __main_7qG2_Y_7qG2_001, 0
+0	147	318	#line 147 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	147	318	#line 147 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	148	318		mov __DU0main, newRoute
+0	148	320	#line 148 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	149	320		tst 5, __D0main, __DU0main
+0	148	323	#line 148 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	149	323		brtst 4, __ASM_Label_811, __D0main
+0	149	326	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	326		set newRoute, 0
+0	149	329	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	149	329	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	149	329	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	329		set __main_7qG2_i_7qG2_003, 0
+0	149	332	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	149	332	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	332		mov __signed_stack_001main, __main_7qG2_i_7qG2_003
+0	149	334	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	149	334	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	334		mov __D0main, lengthAllRoutes
+0	149	336	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	336		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	149	340	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	340		brtst 4, __ASM_Label_815, __D0main
+0	149	343	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	343		jmp __ASM_Label_816
+0	149	345	#line 149 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	345		add __main_7qG2_i_7qG2_003, __main_7qG2_i_7qG2_003, __constVal1
+0	150	349	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	151	349		jmp __ASM_Label_814
+0	150	351	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	151	351		mov __signed_stack_001main, __main_7qG2_i_7qG2_003
+0	150	353	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	353	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	151	353		index __signed_stack_001main, moves, __signed_stack_001main
+0	150	357	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	357	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	150	357	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	151	357		set __D0main, 4
+0	150	360	#line 150 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	151	360		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	151	364	#line 151 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	364		brtst 4, __ASM_Label_826, __D0main
+0	151	367	#line 151 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	367		set __rotateMotorToDegree_7qG2_motor_7qG2_000, 1
+0	151	370	#line 151 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	151	370	#line 151 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	370		set __rotateMotorToDegree_7qG2_degree_7qG2_000, 0
+0	151	373	#line 151 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	373	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	153	373		subcall rotateMotorToDegree, __rotateMotorToDegree_return
+0	152	375	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	375	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	153	375		jmp __ASM_Label_831
+0	152	377	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	153	377		mov __signed_stack_001main, __main_7qG2_i_7qG2_003
+0	152	379	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	379	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	153	379		index __signed_stack_001main, moves, __signed_stack_001main
+0	152	383	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	383	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	152	383	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	153	383		set __D0main, 5
+0	152	386	#line 152 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	153	386		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	153	390	#line 153 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	154	390		brtst 4, __ASM_Label_836, __D0main
+0	153	393	#line 153 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	154	393		set __rotateMotorToDegree_7qG2_motor_7qG2_000, 1
+0	153	396	#line 153 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	153	396	#line 153 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	154	396		mov __rotateMotorToDegree_7qG2_degree_7qG2_000, __constValNeg100
+0	153	398	#line 153 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	154	398	#line 154 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	155	398		subcall rotateMotorToDegree, __rotateMotorToDegree_return
+0	154	400	#line 154 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	155	400	#line 155 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	156	400		jmp __ASM_Label_841
+0	155	402	#line 155 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	156	402		mov __signed_stack_001main, __main_7qG2_i_7qG2_003
+0	155	404	#line 155 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	155	404	#line 155 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	156	404		index __main_7qG2_x_7qG2_005, moves, __signed_stack_001main
+0	155	408	#line 155 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	156	408	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	156	408	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	157	408		mov __signed_stack_001main, __main_7qG2_i_7qG2_003
+0	156	410	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	156	410	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	157	410		set __D0main, 1
+0	156	413	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	157	413		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	156	417	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	156	417	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	157	417		index __main_7qG2_y_7qG2_005, moves, __signed_stack_001main
+0	156	421	#line 156 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	157	421	#line 157 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	158	421	#line 158 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	159	421		mov __main_7qG2_X_7qG2_001, __main_7qG2_x_7qG2_005
+0	158	423	#line 158 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	158	423	#line 158 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	159	423	#line 159 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	160	423		mov __main_7qG2_Y_7qG2_001, __main_7qG2_y_7qG2_005
+0	159	425	#line 159 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	159	425	#line 159 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	159	425	#line 159 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	160	425		mov __goToCoordinate_7qG2_sX_7qG2_000, __main_7qG2_x_7qG2_005
+0	159	427	#line 159 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	159	427	#line 159 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	160	427		mov __goToCoordinate_7qG2_sY_7qG2_000, __main_7qG2_y_7qG2_005
+0	159	429	#line 159 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	160	429	#line 160 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	161	429		subcall goToCoordinate, __goToCoordinate_return
+0	160	431	#line 160 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	161	431	#line 161 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	162	431		add __main_7qG2_i_7qG2_003, __main_7qG2_i_7qG2_003, __constVal1
+0	161	435	#line 161 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	162	435	#line 162 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	162	435	#line 162 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	163	435	#line 163 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	164	435		subcall checkMessage, __checkMessage_return
+0	163	437	#line 163 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	163	437	#line 163 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	164	437		mov __DU0main, newRoute
+0	165	439	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	439		tst 5, __D0main, __DU0main
+0	165	442	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	442		brtst 4, __ASM_Label_860, __D0main
+0	165	445	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	445		mov __signed_stack_001main, __main_7qG2_X_7qG2_001
+0	165	447	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	165	447	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	447		set __D0main, 0
+0	165	450	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	450		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	165	454	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	454		brtst 5, __ASM_Label_863, __D0main
+0	165	457	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	457		mov __signed_stack_001main, __main_7qG2_Y_7qG2_001
+0	165	459	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	165	459	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	459		set __D0main, 0
+0	165	462	#line 165 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	462		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	166	466	#line 166 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	466		brtst 4, __ASM_Label_862, __D0main
+0	166	469	#line 166 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	469		mov __signed_stack_001main, __main_7qG2_X_7qG2_001
+0	166	471	#line 166 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	166	471	#line 166 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	471		set __D0main, 0
+0	166	474	#line 166 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	474		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	166	478	#line 166 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	478		brtst 4, __ASM_Label_868, __D0main
+0	167	481	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	481		set __D0main, 1
+0	167	484	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	484		sub __main_7qG2_X_7qG2_001, __main_7qG2_X_7qG2_001, __D0main
+0	167	488	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	488	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	488	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	488		mov __signed_stack_001main, __main_7qG2_Y_7qG2_001
+0	167	490	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	167	490	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	490		set __D0main, 0
+0	167	493	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	493		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	167	497	#line 167 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	497		brtst 4, __ASM_Label_873, __D0main
+0	168	500	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	169	500		set __D0main, 1
+0	168	503	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	169	503		sub __main_7qG2_Y_7qG2_001, __main_7qG2_Y_7qG2_001, __D0main
+0	168	507	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	507	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	507	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	169	507		mov __goToCoordinate_7qG2_sX_7qG2_000, __main_7qG2_X_7qG2_001
+0	168	509	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	168	509	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	169	509		mov __goToCoordinate_7qG2_sY_7qG2_000, __main_7qG2_Y_7qG2_001
+0	168	511	#line 168 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	169	511	#line 169 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	170	511		subcall goToCoordinate, __goToCoordinate_return
+0	169	513	#line 169 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	170	513	#line 170 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	171	513		jmp __ASM_Label_861
+0	170	515	#line 170 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	171	515	#line 171 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	172	515		jmp __ASM_Label_815
+0	171	517	#line 171 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	174	517	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	174	517	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	517		jmp __ASM_Label_817
+0	174	519	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	174	519	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	519		mov __signed_stack_001main, __main_7qG2_X_7qG2_001
+0	174	521	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	174	521	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	521		set __D0main, 0
+0	174	524	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	524		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	174	528	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	528		brtst 5, __ASM_Label_882, __D0main
+0	174	531	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	531		mov __signed_stack_001main, __main_7qG2_Y_7qG2_001
+0	174	533	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	174	533	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	533		set __D0main, 0
+0	174	536	#line 174 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	536		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	175	540	#line 175 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	540		brtst 4, __ASM_Label_881, __D0main
+0	175	543	#line 175 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	543		mov __signed_stack_001main, __main_7qG2_X_7qG2_001
+0	175	545	#line 175 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	175	545	#line 175 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	545		set __D0main, 0
+0	175	548	#line 175 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	548		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	175	552	#line 175 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	552		brtst 4, __ASM_Label_887, __D0main
+0	176	555	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	555		set __D0main, 1
+0	176	558	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	558		sub __main_7qG2_X_7qG2_001, __main_7qG2_X_7qG2_001, __D0main
+0	176	562	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	562	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	562	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	562		mov __signed_stack_001main, __main_7qG2_Y_7qG2_001
+0	176	564	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	176	564	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	564		set __D0main, 0
+0	176	567	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	567		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	176	571	#line 176 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	571		brtst 4, __ASM_Label_892, __D0main
+0	177	574	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	178	574		set __D0main, 1
+0	177	577	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	178	577		sub __main_7qG2_Y_7qG2_001, __main_7qG2_Y_7qG2_001, __D0main
+0	177	581	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	581	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	581	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	178	581		mov __goToCoordinate_7qG2_sX_7qG2_000, __main_7qG2_X_7qG2_001
+0	177	583	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	177	583	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	178	583		mov __goToCoordinate_7qG2_sY_7qG2_000, __main_7qG2_Y_7qG2_001
+0	177	585	#line 177 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	178	585	#line 178 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	179	585		subcall goToCoordinate, __goToCoordinate_return
+0	178	587	#line 178 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	181	587	#line 181 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	182	587		jmp __ASM_Label_880
+0	181	589	#line 181 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	181	589	#line 181 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	182	589		set __PlaySound_7qG2_aCode_7qG2_000, 3
+0	181	592	#line 181 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	183	592	#line 183 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	184	592		subcall PlaySound, __PlaySound_return
+0	183	594	#line 183 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	255	594	#line 255 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	257	594	#line 257 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	258	594		jmp __ASM_Label_801
+0	257	596	#line 257 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+0	258	596		exit -1, -1
+1	7127	0	#line 7127 "NXCDefs.h"
+1	7128	0		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	7127	2	#line 7127 "NXCDefs.h"
+1	7128	2	#line 7128 "NXCDefs.h"
+1	7129	2		set __D0PlaySound, 0
+1	7128	5	#line 7128 "NXCDefs.h"
+1	7129	5		cmp 4, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7128	9	#line 7128 "NXCDefs.h"
+1	7129	9		brtst 4, __ASM_Label_56, __D0PlaySound
+1	7128	12	#line 7128 "NXCDefs.h"
+1	7129	12		set __signed_stack_001PlaySound, 600
+1	7128	15	#line 7128 "NXCDefs.h"
+1	7128	15	#line 7128 "NXCDefs.h"
+1	7129	15		set __signed_stack_002PlaySound, 200
+1	7128	18	#line 7128 "NXCDefs.h"
+1	7128	18	#line 7128 "NXCDefs.h"
+1	7129	18		set __signed_stack_003PlaySound, 4
+1	7128	21	#line 7128 "NXCDefs.h"
+1	7128	21	#line 7128 "NXCDefs.h"
+1	7129	21		set __D0PlaySound, 0
+1	7129	24	#line 7129 "NXCDefs.h"
+1	7130	24		acquire __SPTArgsMutex
+1	7129	25	#line 7129 "NXCDefs.h"
+1	7130	25		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	7129	27	#line 7129 "NXCDefs.h"
+1	7130	27		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	7129	29	#line 7129 "NXCDefs.h"
+1	7130	29		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	7129	31	#line 7129 "NXCDefs.h"
+1	7130	31		mov __SPTArgs.Loop, __D0PlaySound
+1	7129	33	#line 7129 "NXCDefs.h"
+1	7130	33		syscall 10, __SPTArgs
+1	7129	36	#line 7129 "NXCDefs.h"
+1	7130	36		mov __D0PlaySound, __SPTArgs.Result
+1	7129	38	#line 7129 "NXCDefs.h"
+1	7130	38		release __SPTArgsMutex
+1	7129	39	#line 7129 "NXCDefs.h"
+1	7129	39	#line 7129 "NXCDefs.h"
+1	7130	39		jmp __ASM_Label_65
+1	7129	41	#line 7129 "NXCDefs.h"
+1	7130	41		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	7129	43	#line 7129 "NXCDefs.h"
+1	7130	43	#line 7130 "NXCDefs.h"
+1	7131	43		set __D0PlaySound, 1
+1	7130	46	#line 7130 "NXCDefs.h"
+1	7131	46		cmp 4, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7131	50	#line 7131 "NXCDefs.h"
+1	7132	50		brtst 4, __ASM_Label_68, __D0PlaySound
+1	7131	53	#line 7131 "NXCDefs.h"
+1	7132	53		set __signed_stack_001PlaySound, 600
+1	7131	56	#line 7131 "NXCDefs.h"
+1	7131	56	#line 7131 "NXCDefs.h"
+1	7132	56		set __signed_stack_002PlaySound, 150
+1	7131	59	#line 7131 "NXCDefs.h"
+1	7131	59	#line 7131 "NXCDefs.h"
+1	7132	59		set __signed_stack_003PlaySound, 4
+1	7131	62	#line 7131 "NXCDefs.h"
+1	7131	62	#line 7131 "NXCDefs.h"
+1	7132	62		set __D0PlaySound, 0
+1	7132	65	#line 7132 "NXCDefs.h"
+1	7133	65		acquire __SPTArgsMutex
+1	7132	66	#line 7132 "NXCDefs.h"
+1	7133	66		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	7132	68	#line 7132 "NXCDefs.h"
+1	7133	68		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	7132	70	#line 7132 "NXCDefs.h"
+1	7133	70		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	7132	72	#line 7132 "NXCDefs.h"
+1	7133	72		mov __SPTArgs.Loop, __D0PlaySound
+1	7132	74	#line 7132 "NXCDefs.h"
+1	7133	74		syscall 10, __SPTArgs
+1	7132	77	#line 7132 "NXCDefs.h"
+1	7133	77		mov __D0PlaySound, __SPTArgs.Result
+1	7132	79	#line 7132 "NXCDefs.h"
+1	7133	79		release __SPTArgsMutex
+1	7132	80	#line 7132 "NXCDefs.h"
+1	7132	80	#line 7132 "NXCDefs.h"
+1	7133	80		wait 200
+1	7132	82	#line 7132 "NXCDefs.h"
+1	7132	82	#line 7132 "NXCDefs.h"
+1	7133	82	#line 7133 "NXCDefs.h"
+1	7134	82		set __signed_stack_001PlaySound, 600
+1	7133	85	#line 7133 "NXCDefs.h"
+1	7133	85	#line 7133 "NXCDefs.h"
+1	7134	85		set __signed_stack_002PlaySound, 150
+1	7133	88	#line 7133 "NXCDefs.h"
+1	7133	88	#line 7133 "NXCDefs.h"
+1	7134	88		set __signed_stack_003PlaySound, 4
+1	7133	91	#line 7133 "NXCDefs.h"
+1	7133	91	#line 7133 "NXCDefs.h"
+1	7134	91		set __D0PlaySound, 0
+1	7134	94	#line 7134 "NXCDefs.h"
+1	7135	94		acquire __SPTArgsMutex
+1	7134	95	#line 7134 "NXCDefs.h"
+1	7135	95		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	7134	97	#line 7134 "NXCDefs.h"
+1	7135	97		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	7134	99	#line 7134 "NXCDefs.h"
+1	7135	99		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	7134	101	#line 7134 "NXCDefs.h"
+1	7135	101		mov __SPTArgs.Loop, __D0PlaySound
+1	7134	103	#line 7134 "NXCDefs.h"
+1	7135	103		syscall 10, __SPTArgs
+1	7134	106	#line 7134 "NXCDefs.h"
+1	7135	106		mov __D0PlaySound, __SPTArgs.Result
+1	7134	108	#line 7134 "NXCDefs.h"
+1	7135	108		release __SPTArgsMutex
+1	7134	109	#line 7134 "NXCDefs.h"
+1	7134	109	#line 7134 "NXCDefs.h"
+1	7135	109		wait 150
+1	7134	111	#line 7134 "NXCDefs.h"
+1	7134	111	#line 7134 "NXCDefs.h"
+1	7136	111	#line 7136 "NXCDefs.h"
+1	7137	111		jmp __ASM_Label_85
+1	7136	113	#line 7136 "NXCDefs.h"
+1	7137	113		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	7136	115	#line 7136 "NXCDefs.h"
+1	7137	115	#line 7137 "NXCDefs.h"
+1	7138	115		set __D0PlaySound, 3
+1	7137	118	#line 7137 "NXCDefs.h"
+1	7138	118		cmp 4, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7137	122	#line 7137 "NXCDefs.h"
+1	7138	122		brtst 4, __ASM_Label_88, __D0PlaySound
+1	7137	125	#line 7137 "NXCDefs.h"
+1	7138	125		set __PlaySound_7qG2_i_7qG2_001, 4
+1	7137	128	#line 7137 "NXCDefs.h"
+1	7137	128	#line 7137 "NXCDefs.h"
+1	7138	128		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	7137	130	#line 7137 "NXCDefs.h"
+1	7137	130	#line 7137 "NXCDefs.h"
+1	7138	130		set __D0PlaySound, 8
+1	7137	133	#line 7137 "NXCDefs.h"
+1	7138	133		cmp 0, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7137	137	#line 7137 "NXCDefs.h"
+1	7138	137		brtst 4, __ASM_Label_90, __D0PlaySound
+1	7137	140	#line 7137 "NXCDefs.h"
+1	7138	140		jmp __ASM_Label_91
+1	7138	142	#line 7138 "NXCDefs.h"
+1	7139	142		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+1	7139	146	#line 7139 "NXCDefs.h"
+1	7140	146		jmp __ASM_Label_89
+1	7139	148	#line 7139 "NXCDefs.h"
+1	7140	148		set __signed_stack_001PlaySound, 523
+1	7139	151	#line 7139 "NXCDefs.h"
+1	7139	151	#line 7139 "NXCDefs.h"
+1	7140	151		mov __D0PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	7139	153	#line 7139 "NXCDefs.h"
+1	7140	153		mul __signed_stack_001PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7139	157	#line 7139 "NXCDefs.h"
+1	7139	157	#line 7139 "NXCDefs.h"
+1	7140	157		set __D0PlaySound, 4
+1	7139	160	#line 7139 "NXCDefs.h"
+1	7140	160		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7139	164	#line 7139 "NXCDefs.h"
+1	7139	164	#line 7139 "NXCDefs.h"
+1	7140	164		set __signed_stack_002PlaySound, 100
+1	7139	167	#line 7139 "NXCDefs.h"
+1	7139	167	#line 7139 "NXCDefs.h"
+1	7140	167		set __signed_stack_003PlaySound, 4
+1	7139	170	#line 7139 "NXCDefs.h"
+1	7139	170	#line 7139 "NXCDefs.h"
+1	7140	170		set __D0PlaySound, 0
+1	7140	173	#line 7140 "NXCDefs.h"
+1	7141	173		acquire __SPTArgsMutex
+1	7140	174	#line 7140 "NXCDefs.h"
+1	7141	174		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	7140	176	#line 7140 "NXCDefs.h"
+1	7141	176		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	7140	178	#line 7140 "NXCDefs.h"
+1	7141	178		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	7140	180	#line 7140 "NXCDefs.h"
+1	7141	180		mov __SPTArgs.Loop, __D0PlaySound
+1	7140	182	#line 7140 "NXCDefs.h"
+1	7141	182		syscall 10, __SPTArgs
+1	7140	185	#line 7140 "NXCDefs.h"
+1	7141	185		mov __D0PlaySound, __SPTArgs.Result
+1	7140	187	#line 7140 "NXCDefs.h"
+1	7141	187		release __SPTArgsMutex
+1	7140	188	#line 7140 "NXCDefs.h"
+1	7140	188	#line 7140 "NXCDefs.h"
+1	7141	188		wait 100
+1	7140	190	#line 7140 "NXCDefs.h"
+1	7140	190	#line 7140 "NXCDefs.h"
+1	7142	190	#line 7142 "NXCDefs.h"
+1	7143	190		jmp __ASM_Label_92
+1	7142	192	#line 7142 "NXCDefs.h"
+1	7142	192	#line 7142 "NXCDefs.h"
+1	7143	192		jmp __ASM_Label_105
+1	7142	194	#line 7142 "NXCDefs.h"
+1	7143	194		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	7142	196	#line 7142 "NXCDefs.h"
+1	7143	196	#line 7143 "NXCDefs.h"
+1	7144	196		set __D0PlaySound, 2
+1	7143	199	#line 7143 "NXCDefs.h"
+1	7144	199		cmp 4, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7143	203	#line 7143 "NXCDefs.h"
+1	7144	203		brtst 4, __ASM_Label_108, __D0PlaySound
+1	7143	206	#line 7143 "NXCDefs.h"
+1	7144	206		set __PlaySound_7qG2_i_7qG2_001, 7
+1	7143	209	#line 7143 "NXCDefs.h"
+1	7143	209	#line 7143 "NXCDefs.h"
+1	7144	209		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	7143	211	#line 7143 "NXCDefs.h"
+1	7143	211	#line 7143 "NXCDefs.h"
+1	7144	211		set __D0PlaySound, 3
+1	7143	214	#line 7143 "NXCDefs.h"
+1	7144	214		cmp 1, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7143	218	#line 7143 "NXCDefs.h"
+1	7144	218		brtst 4, __ASM_Label_110, __D0PlaySound
+1	7143	221	#line 7143 "NXCDefs.h"
+1	7144	221		jmp __ASM_Label_111
+1	7144	223	#line 7144 "NXCDefs.h"
+1	7145	223		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+1	7145	227	#line 7145 "NXCDefs.h"
+1	7146	227		jmp __ASM_Label_109
+1	7145	229	#line 7145 "NXCDefs.h"
+1	7146	229		set __signed_stack_001PlaySound, 523
+1	7145	232	#line 7145 "NXCDefs.h"
+1	7145	232	#line 7145 "NXCDefs.h"
+1	7146	232		mov __D0PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	7145	234	#line 7145 "NXCDefs.h"
+1	7146	234		mul __signed_stack_001PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7145	238	#line 7145 "NXCDefs.h"
+1	7145	238	#line 7145 "NXCDefs.h"
+1	7146	238		set __D0PlaySound, 4
+1	7145	241	#line 7145 "NXCDefs.h"
+1	7146	241		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7145	245	#line 7145 "NXCDefs.h"
+1	7145	245	#line 7145 "NXCDefs.h"
+1	7146	245		set __signed_stack_002PlaySound, 100
+1	7145	248	#line 7145 "NXCDefs.h"
+1	7145	248	#line 7145 "NXCDefs.h"
+1	7146	248		set __signed_stack_003PlaySound, 4
+1	7145	251	#line 7145 "NXCDefs.h"
+1	7145	251	#line 7145 "NXCDefs.h"
+1	7146	251		set __D0PlaySound, 0
+1	7146	254	#line 7146 "NXCDefs.h"
+1	7147	254		acquire __SPTArgsMutex
+1	7146	255	#line 7146 "NXCDefs.h"
+1	7147	255		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	7146	257	#line 7146 "NXCDefs.h"
+1	7147	257		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	7146	259	#line 7146 "NXCDefs.h"
+1	7147	259		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	7146	261	#line 7146 "NXCDefs.h"
+1	7147	261		mov __SPTArgs.Loop, __D0PlaySound
+1	7146	263	#line 7146 "NXCDefs.h"
+1	7147	263		syscall 10, __SPTArgs
+1	7146	266	#line 7146 "NXCDefs.h"
+1	7147	266		mov __D0PlaySound, __SPTArgs.Result
+1	7146	268	#line 7146 "NXCDefs.h"
+1	7147	268		release __SPTArgsMutex
+1	7146	269	#line 7146 "NXCDefs.h"
+1	7146	269	#line 7146 "NXCDefs.h"
+1	7147	269		wait 100
+1	7146	271	#line 7146 "NXCDefs.h"
+1	7146	271	#line 7146 "NXCDefs.h"
+1	7148	271	#line 7148 "NXCDefs.h"
+1	7149	271		jmp __ASM_Label_112
+1	7148	273	#line 7148 "NXCDefs.h"
+1	7148	273	#line 7148 "NXCDefs.h"
+1	7149	273		jmp __ASM_Label_125
+1	7148	275	#line 7148 "NXCDefs.h"
+1	7149	275		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	7148	277	#line 7148 "NXCDefs.h"
+1	7149	277	#line 7149 "NXCDefs.h"
+1	7150	277		set __D0PlaySound, 4
+1	7149	280	#line 7149 "NXCDefs.h"
+1	7150	280		cmp 4, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7150	284	#line 7150 "NXCDefs.h"
+1	7151	284		brtst 4, __ASM_Label_128, __D0PlaySound
+1	7150	287	#line 7150 "NXCDefs.h"
+1	7151	287		set __signed_stack_001PlaySound, 100
+1	7150	290	#line 7150 "NXCDefs.h"
+1	7150	290	#line 7150 "NXCDefs.h"
+1	7151	290		set __signed_stack_002PlaySound, 500
+1	7150	293	#line 7150 "NXCDefs.h"
+1	7150	293	#line 7150 "NXCDefs.h"
+1	7151	293		set __signed_stack_003PlaySound, 4
+1	7150	296	#line 7150 "NXCDefs.h"
+1	7150	296	#line 7150 "NXCDefs.h"
+1	7151	296		set __D0PlaySound, 0
+1	7151	299	#line 7151 "NXCDefs.h"
+1	7152	299		acquire __SPTArgsMutex
+1	7151	300	#line 7151 "NXCDefs.h"
+1	7152	300		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	7151	302	#line 7151 "NXCDefs.h"
+1	7152	302		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	7151	304	#line 7151 "NXCDefs.h"
+1	7152	304		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	7151	306	#line 7151 "NXCDefs.h"
+1	7152	306		mov __SPTArgs.Loop, __D0PlaySound
+1	7151	308	#line 7151 "NXCDefs.h"
+1	7152	308		syscall 10, __SPTArgs
+1	7151	311	#line 7151 "NXCDefs.h"
+1	7152	311		mov __D0PlaySound, __SPTArgs.Result
+1	7151	313	#line 7151 "NXCDefs.h"
+1	7152	313		release __SPTArgsMutex
+1	7151	314	#line 7151 "NXCDefs.h"
+1	7151	314	#line 7151 "NXCDefs.h"
+1	7152	314		wait 500
+1	7151	316	#line 7151 "NXCDefs.h"
+1	7151	316	#line 7151 "NXCDefs.h"
+1	7153	316	#line 7153 "NXCDefs.h"
+1	7154	316		jmp __ASM_Label_137
+1	7153	318	#line 7153 "NXCDefs.h"
+1	7154	318		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	7153	320	#line 7153 "NXCDefs.h"
+1	7154	320	#line 7154 "NXCDefs.h"
+1	7155	320		set __D0PlaySound, 5
+1	7154	323	#line 7154 "NXCDefs.h"
+1	7155	323		cmp 4, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7154	327	#line 7154 "NXCDefs.h"
+1	7155	327		brtst 4, __ASM_Label_140, __D0PlaySound
+1	7154	330	#line 7154 "NXCDefs.h"
+1	7155	330		set __PlaySound_7qG2_i_7qG2_001, 4
+1	7154	333	#line 7154 "NXCDefs.h"
+1	7154	333	#line 7154 "NXCDefs.h"
+1	7155	333		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	7154	335	#line 7154 "NXCDefs.h"
+1	7154	335	#line 7154 "NXCDefs.h"
+1	7155	335		set __D0PlaySound, 8
+1	7154	338	#line 7154 "NXCDefs.h"
+1	7155	338		cmp 0, __D0PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7154	342	#line 7154 "NXCDefs.h"
+1	7155	342		brtst 4, __ASM_Label_142, __D0PlaySound
+1	7154	345	#line 7154 "NXCDefs.h"
+1	7155	345		jmp __ASM_Label_143
+1	7155	347	#line 7155 "NXCDefs.h"
+1	7156	347		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+1	7156	351	#line 7156 "NXCDefs.h"
+1	7157	351		jmp __ASM_Label_141
+1	7156	353	#line 7156 "NXCDefs.h"
+1	7157	353		set __signed_stack_001PlaySound, 523
+1	7156	356	#line 7156 "NXCDefs.h"
+1	7156	356	#line 7156 "NXCDefs.h"
+1	7157	356		mov __D0PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	7156	358	#line 7156 "NXCDefs.h"
+1	7157	358		mul __signed_stack_001PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7156	362	#line 7156 "NXCDefs.h"
+1	7156	362	#line 7156 "NXCDefs.h"
+1	7157	362		set __D0PlaySound, 4
+1	7156	365	#line 7156 "NXCDefs.h"
+1	7157	365		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	7156	369	#line 7156 "NXCDefs.h"
+1	7156	369	#line 7156 "NXCDefs.h"
+1	7157	369		set __signed_stack_002PlaySound, 50
+1	7156	372	#line 7156 "NXCDefs.h"
+1	7156	372	#line 7156 "NXCDefs.h"
+1	7157	372		set __signed_stack_003PlaySound, 4
+1	7156	375	#line 7156 "NXCDefs.h"
+1	7156	375	#line 7156 "NXCDefs.h"
+1	7157	375		set __D0PlaySound, 0
+1	7157	378	#line 7157 "NXCDefs.h"
+1	7158	378		acquire __SPTArgsMutex
+1	7157	379	#line 7157 "NXCDefs.h"
+1	7158	379		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	7157	381	#line 7157 "NXCDefs.h"
+1	7158	381		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	7157	383	#line 7157 "NXCDefs.h"
+1	7158	383		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	7157	385	#line 7157 "NXCDefs.h"
+1	7158	385		mov __SPTArgs.Loop, __D0PlaySound
+1	7157	387	#line 7157 "NXCDefs.h"
+1	7158	387		syscall 10, __SPTArgs
+1	7157	390	#line 7157 "NXCDefs.h"
+1	7158	390		mov __D0PlaySound, __SPTArgs.Result
+1	7157	392	#line 7157 "NXCDefs.h"
+1	7158	392		release __SPTArgsMutex
+1	7157	393	#line 7157 "NXCDefs.h"
+1	7157	393	#line 7157 "NXCDefs.h"
+1	7158	393		wait 50
+1	7157	395	#line 7157 "NXCDefs.h"
+1	7157	395	#line 7157 "NXCDefs.h"
+1	7169	395	#line 7169 "NXCDefs.h"
+1	7170	395		jmp __ASM_Label_144
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7169	397	#line 7169 "NXCDefs.h"
+1	7170	397		subret __PlaySound_return
+2	28	0	#line 28 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	29	0		strcat __strbuftestRoute, allRoutes
+2	29	4	#line 29 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	30	4		arrsize __D0testRoute, __strbuftestRoute
+2	30	7		sub lengthAllRoutes, __D0testRoute, __constVal1
+2	29	11	#line 29 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	29	11	#line 29 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	29	11	#line 29 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	30	11		arrinit moves, __constVal0, lengthAllRoutes
+2	29	15	#line 29 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	29	15	#line 29 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	31	15	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	15		set __testRoute_7qG2_i_7qG2_001, 0
+2	31	18	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	31	18	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	18		mov __signed_stack_001testRoute, __testRoute_7qG2_i_7qG2_001
+2	31	20	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	31	20	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	20		mov __D0testRoute, lengthAllRoutes
+2	31	22	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	22		cmp 0, __D0testRoute, __signed_stack_001testRoute, __D0testRoute
+2	31	26	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	26		brtst 4, __ASM_Label_607, __D0testRoute
+2	31	29	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	29		jmp __ASM_Label_608
+2	31	31	#line 31 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	31		add __testRoute_7qG2_i_7qG2_001, __testRoute_7qG2_i_7qG2_001, __constVal1
+2	32	35	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	33	35		jmp __ASM_Label_606
+2	32	37	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	33	37		mov __signed_stack_001testRoute, __testRoute_7qG2_i_7qG2_001
+2	32	39	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	39	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	33	39		strcat __strbuftestRoute, allRoutes
+2	32	43	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	33	43		mov __signed_stack_002testRoute, __testRoute_7qG2_i_7qG2_001
+2	32	45	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	32	45	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	33	45		set __D0testRoute, 1
+2	32	48	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	33	48		strsubset __strretvaltestRoute, __strbuftestRoute, __signed_stack_002testRoute, __D0testRoute
+2	32	53	#line 32 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	33	53		strcat __strbuftestRoute, __strretvaltestRoute
+2	33	57	#line 33 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	34	57		strtonum __D0testRoute, __signed_stack_002testRoute, __strbuftestRoute, 65535, 65535
+2	33	63	#line 33 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	34	63		replace moves, moves, __signed_stack_001testRoute, __D0testRoute
+2	33	68	#line 33 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	37	68	#line 37 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	38	68		jmp __ASM_Label_609
+2	37	70	#line 37 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	37	70	#line 37 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+2	38	70		subret __testRoute_return
+3	38	0	#line 38 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	39	0		mov __PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorToDegree, __rotateMotorToDegree_7qG2_motor_7qG2_000
+3	38	2	#line 38 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	38	2	#line 38 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	39	2		mov __PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorToDegree, __rotateMotorToDegree_7qG2_degree_7qG2_000
+3	38	4	#line 38 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	20915	4	#line 20915 "NXCDefs.h"
+3	20916	4		mov __signed_stack_001PosRegSetAngle_inline_rotateMotorToDegree, __PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorToDegree
+3	20915	6	#line 20915 "NXCDefs.h"
+3	20915	6	#line 20915 "NXCDefs.h"
+3	20916	6		set __D0PosRegSetAngle_inline_rotateMotorToDegree, 4
+3	20916	9	#line 20916 "NXCDefs.h"
+3	20916	9	#line 20916 "NXCDefs.h"
+3	20917	9		setout __PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorToDegree, 5, __signed_stack_001PosRegSetAngle_inline_rotateMotorToDegree, 0, __D0PosRegSetAngle_inline_rotateMotorToDegree
+3	20916	16	#line 20916 "NXCDefs.h"
+3	20916	16	#line 20916 "NXCDefs.h"
+3	20916	16	#line 20916 "NXCDefs.h"
+3	20916	16	#line 20916 "NXCDefs.h"
+3	20916	16	#line 20916 "NXCDefs.h"
+3	20916	16	#line 20916 "NXCDefs.h"
+3	39	16	#line 39 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	39	16	#line 39 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	40	16		getout __signed_stack_001rotateMotorToDegree, __rotateMotorToDegree_7qG2_motor_7qG2_000, 4
+3	39	20	#line 39 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	39	20	#line 39 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	40	20		mov __D0rotateMotorToDegree, __rotateMotorToDegree_7qG2_degree_7qG2_000
+3	39	22	#line 39 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	40	22		cmp 5, __D0rotateMotorToDegree, __signed_stack_001rotateMotorToDegree, __D0rotateMotorToDegree
+3	40	26	#line 40 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	41	26		brtst 4, __ASM_Label_627, __D0rotateMotorToDegree
+3	40	29	#line 40 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	41	29		set __Wait_7qG2_ms_7qG2_000_inline_rotateMotorToDegree, 1
+3	40	32	#line 40 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	8551	32	#line 8551 "NXCDefs.h"
+3	8552	32		waitv __Wait_7qG2_ms_7qG2_000_inline_rotateMotorToDegree
+3	8551	34	#line 8551 "NXCDefs.h"
+3	41	34	#line 41 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	44	34	#line 44 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	45	34		jmp __ASM_Label_626
+3	44	36	#line 44 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	44	36	#line 44 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+3	45	36		subret __rotateMotorToDegree_return
+4	47	0	#line 47 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	48	0		set __checkMessage_7qG2_checkPath_7qG2_000, 0
+4	47	3	#line 47 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	48	3	#line 48 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	49	3		set __checkMessage_7qG2_checkInformation_7qG2_000, 0
+4	48	6	#line 48 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	50	6	#line 50 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	51	6		strcat __strbufcheckMessage, __constStr0009
+4	50	10	#line 50 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	51	10		mov __checkMessage_7qG2_buffer1_7qG2_000, __strbufcheckMessage
+4	50	12	#line 50 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	51	12	#line 51 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	52	12	#pragma macro 7
+4	52	12		mov __MRArgs.QueueID, INBOX
+4	52	14		mov __MRArgs.Remove, __constVal1
+4	52	16		syscall 27, __MRArgs
+4	52	19		mov __checkMessage_7qG2_buffer_7qG2_000, __MRArgs.Message
+4	7091	21	#line 7091 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	51	21	#line 51 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	52	21	#line 52 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	53	21		mov __signed_stack_001checkMessage, __MRArgs.Result
+4	52	23	#line 52 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	52	23	#line 52 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	53	23		set __D0checkMessage, 0
+4	52	26	#line 52 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	53	26		cmp 4, __D0checkMessage, __signed_stack_001checkMessage, __D0checkMessage
+4	53	30	#line 53 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	54	30		brtst 4, __ASM_Label_642, __D0checkMessage
+4	53	33	#line 53 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	54	33		mov __DU0checkMessage, __checkMessage_7qG2_checkPath_7qG2_000
+4	54	35	#line 54 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	55	35		tst 5, __D0checkMessage, __DU0checkMessage
+4	54	38	#line 54 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	55	38		brtst 4, __ASM_Label_645, __D0checkMessage
+4	54	41	#line 54 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	55	41		strcat __strbufcheckMessage, __checkMessage_7qG2_buffer1_7qG2_000
+4	54	45	#line 54 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	55	45		mov __ArrHelper__checkMessage_244_0, __strbufcheckMessage
+4	54	47	#line 54 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	55	47		strcat __strbufcheckMessage, __checkMessage_7qG2_buffer_7qG2_000
+4	54	51	#line 54 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	55	51		mov __ArrHelper__checkMessage_244_1, __strbufcheckMessage
+4	55	53	#line 55 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	56	53		strcat __strretvalcheckMessage, __ArrHelper__checkMessage_244_0, __ArrHelper__checkMessage_244_1
+4	55	58	#line 55 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	56	58		strcat __strbufcheckMessage, __strretvalcheckMessage
+4	55	62	#line 55 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	56	62		mov __checkMessage_7qG2_buffer1_7qG2_000, __strbufcheckMessage
+4	55	64	#line 55 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	56	64	#line 56 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	56	64	#line 56 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	57	64		mov __DU0checkMessage, __checkMessage_7qG2_checkInformation_7qG2_000
+4	58	66	#line 58 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	59	66		tst 5, __D0checkMessage, __DU0checkMessage
+4	58	69	#line 58 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	59	69	#line 59 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	59	69	#line 59 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	60	69		strcat __strbufcheckMessage, __checkMessage_7qG2_buffer_7qG2_000
+4	59	73	#line 59 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	60	73		mov __strtmpbufcheckMessage, __strbufcheckMessage
+4	59	75	#line 59 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	60	75		strcat __strbufcheckMessage, __constStr0010
+4	59	79	#line 59 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	60	79		cmp 4, __D0checkMessage, __strtmpbufcheckMessage, __strbufcheckMessage
+4	60	83	#line 60 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	61	83		brtst 4, __ASM_Label_651, __D0checkMessage
+4	60	86	#line 60 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	61	86		set __signed_stack_001checkMessage, 0
+4	60	89	#line 60 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	60	89	#line 60 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	61	89		set __signed_stack_002checkMessage, 40
+4	60	92	#line 60 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	60	92	#line 60 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	61	92		strcat __strbufcheckMessage, __constStr0011
+4	61	96	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	61	96	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	96		mov __TextOutArgs.Location.X, __signed_stack_001checkMessage
+4	61	98	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	98		mov __TextOutArgs.Location.Y, __signed_stack_002checkMessage
+4	61	100	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	100		set __TextOutArgs.Options, 0
+4	61	103	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	103		mov __TextOutArgs.Text, __strbufcheckMessage
+4	61	105	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	105		syscall 13, __TextOutArgs
+4	61	108	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	108		mov __D0checkMessage, __TextOutArgs.Result
+4	61	110	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	61	110	#line 61 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	110	#line 62 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	63	110		set __checkMessage_7qG2_checkPath_7qG2_000, 1
+4	62	113	#line 62 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	62	113	#line 62 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	63	113	#line 63 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	64	113		set newRoute, 1
+4	63	116	#line 63 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	63	116	#line 63 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	63	116	#line 63 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	64	116	#pragma macro 6
+4	64	116		mov __MWArgs.QueueID, OUTBOX
+4	64	118		mov __MWArgs.Message, __constStr0012
+4	64	120		syscall 26, __MWArgs
+4	64	123		mov __D0checkMessage, __MWArgs.Result
+4	7203	125	#line 7203 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	63	125	#line 63 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	63	125	#line 63 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	64	125	#line 64 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	65	125		set __ClearLine_7qG2_line_7qG2_000_inline_checkMessage, 56
+4	64	128	#line 64 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	6685	128	#line 6685 "NXCDefs.h"
+4	6686	128	#pragma macro 7
+4	6686	128		mov __TextOutArgs.Location.X, __constVal0
+4	6686	130		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_checkMessage
+4	6686	132		mov __TextOutArgs.Options, __constVal0
+4	6686	134		mov __TextOutArgs.Text, __BlankLine
+4	6686	136		syscall 13, __TextOutArgs
+4	7215	139	#line 7215 "NXCDefs.h"
+4	6685	139	#line 6685 "NXCDefs.h"
+4	66	139	#line 66 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	67	139	#line 67 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	68	139		jmp __ASM_Label_662
+4	67	141	#line 67 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	68	141		strcat __strbufcheckMessage, __checkMessage_7qG2_buffer_7qG2_000
+4	67	145	#line 67 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	68	145		mov __strtmpbufcheckMessage, __strbufcheckMessage
+4	67	147	#line 67 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	68	147		strcat __strbufcheckMessage, __constStr0013
+4	67	151	#line 67 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	68	151		cmp 4, __D0checkMessage, __strtmpbufcheckMessage, __strbufcheckMessage
+4	68	155	#line 68 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	69	155		brtst 4, __ASM_Label_665, __D0checkMessage
+4	68	158	#line 68 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	69	158		set __rotateMotorToDegree_7qG2_motor_7qG2_000, 1
+4	68	161	#line 68 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	68	161	#line 68 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	69	161		mov __rotateMotorToDegree_7qG2_degree_7qG2_000, __constValNeg100
+4	68	163	#line 68 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	69	163	#line 69 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	70	163		subcall rotateMotorToDegree, __rotateMotorToDegree_return
+4	69	165	#line 69 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	69	165	#line 69 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	70	165		set __rotateMotorToDegree_7qG2_motor_7qG2_000, 0
+4	69	168	#line 69 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	69	168	#line 69 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	70	168		mov __rotateMotorToDegree_7qG2_degree_7qG2_000, __constValNeg410
+4	69	170	#line 69 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	70	170	#line 70 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	71	170		subcall rotateMotorToDegree, __rotateMotorToDegree_return
+4	70	172	#line 70 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	71	172	#line 71 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	72	172		jmp __ASM_Label_674
+4	71	174	#line 71 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	72	174		strcat __strbufcheckMessage, __checkMessage_7qG2_buffer_7qG2_000
+4	71	178	#line 71 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	72	178		mov __strtmpbufcheckMessage, __strbufcheckMessage
+4	71	180	#line 71 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	72	180		strcat __strbufcheckMessage, __constStr0014
+4	71	184	#line 71 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	72	184		cmp 4, __D0checkMessage, __strtmpbufcheckMessage, __strbufcheckMessage
+4	72	188	#line 72 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	73	188		brtst 4, __ASM_Label_677, __D0checkMessage
+4	72	191	#line 72 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	73	191		set __rotateMotorToDegree_7qG2_motor_7qG2_000, 0
+4	72	194	#line 72 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	72	194	#line 72 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	73	194		set __rotateMotorToDegree_7qG2_degree_7qG2_000, 0
+4	72	197	#line 72 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	74	197	#line 74 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	75	197		subcall rotateMotorToDegree, __rotateMotorToDegree_return
+4	74	199	#line 74 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	75	199	#line 75 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	76	199		jmp __ASM_Label_682
+4	75	201	#line 75 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	76	201		strcat __strbufcheckMessage, __checkMessage_7qG2_buffer_7qG2_000
+4	75	205	#line 75 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	76	205		mov __strtmpbufcheckMessage, __strbufcheckMessage
+4	75	207	#line 75 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	76	207		strcat __strbufcheckMessage, __constStr0015
+4	75	211	#line 75 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	76	211		cmp 4, __D0checkMessage, __strtmpbufcheckMessage, __strbufcheckMessage
+4	76	215	#line 76 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	77	215		brtst 4, __ASM_Label_685, __D0checkMessage
+4	76	218	#line 76 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	77	218		set __signed_stack_001checkMessage, 0
+4	76	221	#line 76 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	76	221	#line 76 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	77	221		set __signed_stack_002checkMessage, 24
+4	76	224	#line 76 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	76	224	#line 76 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	77	224		strcat __strbufcheckMessage, __constStr0016
+4	77	228	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	77	228	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	78	228		mov __TextOutArgs.Location.X, __signed_stack_001checkMessage
+4	77	230	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	78	230		mov __TextOutArgs.Location.Y, __signed_stack_002checkMessage
+4	77	232	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	78	232		set __TextOutArgs.Options, 0
+4	77	235	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	78	235		mov __TextOutArgs.Text, __strbufcheckMessage
+4	77	237	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	78	237		syscall 13, __TextOutArgs
+4	77	240	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	78	240		mov __D0checkMessage, __TextOutArgs.Result
+4	77	242	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	77	242	#line 77 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	78	242	#line 78 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	79	242		strcat __strbufcheckMessage, __checkMessage_7qG2_buffer1_7qG2_000
+4	78	246	#line 78 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	79	246		mov allRoutes, __strbufcheckMessage
+4	78	248	#line 78 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	79	248	#line 79 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	80	248		subcall testRoute, __testRoute_return
+4	79	250	#line 79 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	80	250	#line 80 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	81	250		set __checkMessage_7qG2_checkPath_7qG2_000, 0
+4	80	253	#line 80 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	80	253	#line 80 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	82	253	#line 82 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	82	253	#line 82 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	82	253	#line 82 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	82	253	#line 82 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	83	253	#line 83 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	84	253		jmp __ASM_Label_692
+4	83	255	#line 83 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	84	255		set __signed_stack_001checkMessage, 10
+4	83	258	#line 83 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	83	258	#line 83 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	84	258		set __signed_stack_002checkMessage, 56
+4	83	261	#line 83 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	83	261	#line 83 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	84	261		strcat __strbufcheckMessage, __constStr0017
+4	84	265	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	84	265	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	85	265		mov __TextOutArgs.Location.X, __signed_stack_001checkMessage
+4	84	267	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	85	267		mov __TextOutArgs.Location.Y, __signed_stack_002checkMessage
+4	84	269	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	85	269		set __TextOutArgs.Options, 0
+4	84	272	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	85	272		mov __TextOutArgs.Text, __strbufcheckMessage
+4	84	274	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	85	274		syscall 13, __TextOutArgs
+4	84	277	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	85	277		mov __D0checkMessage, __TextOutArgs.Result
+4	84	279	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	84	279	#line 84 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	85	279	#line 85 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	86	279	#line 86 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	87	279		mov __DU0checkMessage, __checkMessage_7qG2_checkPath_7qG2_000
+4	90	281	#line 90 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	91	281		tst 5, __D0checkMessage, __DU0checkMessage
+4	90	284	#line 90 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	91	284		brtst 4, __ASM_Label_637, __D0checkMessage
+4	90	287	#line 90 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	91	287		jmp __ASM_Label_636
+4	90	289	#line 90 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	90	289	#line 90 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+4	91	289		subret __checkMessage_return
+5	91	0	#line 91 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	92	0		mov __PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_motorA_7qG2_000
+5	91	2	#line 91 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	91	2	#line 91 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	92	2		mov __PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_degreeA_7qG2_000
+5	91	4	#line 91 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	20915	4	#line 20915 "NXCDefs.h"
+5	20916	4		mov __signed_stack_001PosRegSetAngle_inline_rotateMotorsToDegrees, __PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorsToDegrees
+5	20915	6	#line 20915 "NXCDefs.h"
+5	20915	6	#line 20915 "NXCDefs.h"
+5	20916	6		set __D0PosRegSetAngle_inline_rotateMotorsToDegrees, 4
+5	20916	9	#line 20916 "NXCDefs.h"
+5	20916	9	#line 20916 "NXCDefs.h"
+5	20917	9		setout __PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorsToDegrees, 5, __signed_stack_001PosRegSetAngle_inline_rotateMotorsToDegrees, 0, __D0PosRegSetAngle_inline_rotateMotorsToDegrees
+5	20916	16	#line 20916 "NXCDefs.h"
+5	20916	16	#line 20916 "NXCDefs.h"
+5	20916	16	#line 20916 "NXCDefs.h"
+5	20916	16	#line 20916 "NXCDefs.h"
+5	20916	16	#line 20916 "NXCDefs.h"
+5	20916	16	#line 20916 "NXCDefs.h"
+5	92	16	#line 92 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	92	16	#line 92 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	93	16		mov __PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_motorB_7qG2_000
+5	92	18	#line 92 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	92	18	#line 92 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	93	18		mov __PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_degreeB_7qG2_000
+5	92	20	#line 92 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	20915	20	#line 20915 "NXCDefs.h"
+5	20916	20		mov __signed_stack_001PosRegSetAngle_inline_rotateMotorsToDegrees, __PosRegSetAngle_7qG2_angle_7qG2_000_inline_rotateMotorsToDegrees
+5	20915	22	#line 20915 "NXCDefs.h"
+5	20915	22	#line 20915 "NXCDefs.h"
+5	20916	22		set __D0PosRegSetAngle_inline_rotateMotorsToDegrees, 4
+5	20916	25	#line 20916 "NXCDefs.h"
+5	20916	25	#line 20916 "NXCDefs.h"
+5	20917	25		setout __PosRegSetAngle_7qG2_output_7qG2_000_inline_rotateMotorsToDegrees, 5, __signed_stack_001PosRegSetAngle_inline_rotateMotorsToDegrees, 0, __D0PosRegSetAngle_inline_rotateMotorsToDegrees
+5	20916	32	#line 20916 "NXCDefs.h"
+5	20916	32	#line 20916 "NXCDefs.h"
+5	20916	32	#line 20916 "NXCDefs.h"
+5	20916	32	#line 20916 "NXCDefs.h"
+5	20916	32	#line 20916 "NXCDefs.h"
+5	20916	32	#line 20916 "NXCDefs.h"
+5	93	32	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	93	32	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	94	32		getout __signed_stack_001rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_motorA_7qG2_000, 4
+5	93	36	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	93	36	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	94	36		mov __D0rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_degreeA_7qG2_000
+5	93	38	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	94	38		cmp 5, __D0rotateMotorsToDegrees, __signed_stack_001rotateMotorsToDegrees, __D0rotateMotorsToDegrees
+5	93	42	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	94	42		brtst 4, __ASM_Label_710, __D0rotateMotorsToDegrees
+5	93	45	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	94	45		getout __signed_stack_001rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_motorB_7qG2_000, 4
+5	93	49	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	93	49	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	94	49		mov __D0rotateMotorsToDegrees, __rotateMotorsToDegrees_7qG2_degreeB_7qG2_000
+5	93	51	#line 93 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	94	51		cmp 5, __D0rotateMotorsToDegrees, __signed_stack_001rotateMotorsToDegrees, __D0rotateMotorsToDegrees
+5	94	55	#line 94 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	95	55		brtst 4, __ASM_Label_708, __D0rotateMotorsToDegrees
+5	94	58	#line 94 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	95	58		set __Wait_7qG2_ms_7qG2_000_inline_rotateMotorsToDegrees, 1
+5	94	61	#line 94 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	8551	61	#line 8551 "NXCDefs.h"
+5	8552	61		waitv __Wait_7qG2_ms_7qG2_000_inline_rotateMotorsToDegrees
+5	8551	63	#line 8551 "NXCDefs.h"
+5	95	63	#line 95 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	98	63	#line 98 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	99	63		jmp __ASM_Label_707
+5	98	65	#line 98 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	98	65	#line 98 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+5	99	65		subret __rotateMotorsToDegrees_return
+6	99	0	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	0		mov __signed_stack_001goToCoordinate, __goToCoordinate_7qG2_sX_7qG2_000
+6	99	2	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	99	2	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	2		mov __D0goToCoordinate, oldX
+6	99	4	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	4		cmp 4, __D0goToCoordinate, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	99	8	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	8		brtst 4, __ASM_Label_714, __D0goToCoordinate
+6	99	11	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	11		mov __signed_stack_001goToCoordinate, __goToCoordinate_7qG2_sY_7qG2_000
+6	99	13	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	99	13	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	13		mov __D0goToCoordinate, oldY
+6	99	15	#line 99 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	15		cmp 5, __D0goToCoordinate, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	100	19	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	19		brtst 4, __ASM_Label_715, __D0goToCoordinate
+6	100	22	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	22		set __rotateMotorToDegree_7qG2_motor_7qG2_000, 0
+6	100	25	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	25	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	25		set __signed_stack_001goToCoordinate, 0
+6	100	28	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	28	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	28		mov __signed_stack_002goToCoordinate, __goToCoordinate_7qG2_sY_7qG2_000
+6	100	30	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	100	30	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	30		mov __D0goToCoordinate, degreeBetweenYTile
+6	100	32	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	32		mul __D0goToCoordinate, __signed_stack_002goToCoordinate, __D0goToCoordinate
+6	100	36	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	36		sub __rotateMotorToDegree_7qG2_degree_7qG2_000, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	100	40	#line 100 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	40	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	40		subcall rotateMotorToDegree, __rotateMotorToDegree_return
+6	101	42	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	42	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	42		jmp __ASM_Label_720
+6	101	44	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	44		mov __signed_stack_001goToCoordinate, __goToCoordinate_7qG2_sY_7qG2_000
+6	101	46	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	46	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	46		mov __D0goToCoordinate, oldY
+6	101	48	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	48		cmp 4, __D0goToCoordinate, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	101	52	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	52		brtst 4, __ASM_Label_722, __D0goToCoordinate
+6	101	55	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	55		mov __signed_stack_001goToCoordinate, __goToCoordinate_7qG2_sX_7qG2_000
+6	101	57	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	101	57	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	57		mov __D0goToCoordinate, oldX
+6	101	59	#line 101 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	59		cmp 5, __D0goToCoordinate, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	102	63	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	63		brtst 4, __ASM_Label_723, __D0goToCoordinate
+6	102	66	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	66		set __rotateMotorToDegree_7qG2_motor_7qG2_000, 2
+6	102	69	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	69	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	69		set __signed_stack_001goToCoordinate, 0
+6	102	72	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	72	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	72		mov __signed_stack_002goToCoordinate, __goToCoordinate_7qG2_sX_7qG2_000
+6	102	74	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	102	74	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	74		mov __D0goToCoordinate, degreeBetweenXTile
+6	102	76	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	76		mul __D0goToCoordinate, __signed_stack_002goToCoordinate, __D0goToCoordinate
+6	102	80	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	80		sub __rotateMotorToDegree_7qG2_degree_7qG2_000, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	102	84	#line 102 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	103	84	#line 103 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	84		subcall rotateMotorToDegree, __rotateMotorToDegree_return
+6	103	86	#line 103 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	86	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	86		jmp __ASM_Label_728
+6	104	88	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	88		set __rotateMotorsToDegrees_7qG2_motorA_7qG2_000, 2
+6	104	91	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	91	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	91		set __signed_stack_001goToCoordinate, 0
+6	104	94	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	94	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	94		mov __signed_stack_002goToCoordinate, __goToCoordinate_7qG2_sX_7qG2_000
+6	104	96	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	96	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	96		mov __D0goToCoordinate, degreeBetweenXTile
+6	104	98	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	98		mul __D0goToCoordinate, __signed_stack_002goToCoordinate, __D0goToCoordinate
+6	104	102	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	102		sub __rotateMotorsToDegrees_7qG2_degreeA_7qG2_000, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	104	106	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	106	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	106		set __rotateMotorsToDegrees_7qG2_motorB_7qG2_000, 0
+6	104	109	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	109	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	109		set __signed_stack_001goToCoordinate, 0
+6	104	112	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	112	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	112		mov __signed_stack_002goToCoordinate, __goToCoordinate_7qG2_sY_7qG2_000
+6	104	114	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	104	114	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	114		mov __D0goToCoordinate, degreeBetweenYTile
+6	104	116	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	116		mul __D0goToCoordinate, __signed_stack_002goToCoordinate, __D0goToCoordinate
+6	104	120	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	120		sub __rotateMotorsToDegrees_7qG2_degreeB_7qG2_000, __signed_stack_001goToCoordinate, __D0goToCoordinate
+6	104	124	#line 104 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	105	124	#line 105 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	106	124		subcall rotateMotorsToDegrees, __rotateMotorsToDegrees_return
+6	105	126	#line 105 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	106	126	#line 106 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	106	126	#line 106 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	107	126	#line 107 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	108	126		mov oldX, __goToCoordinate_7qG2_sX_7qG2_000
+6	107	128	#line 107 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	107	128	#line 107 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	108	128	#line 108 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	109	128		mov oldY, __goToCoordinate_7qG2_sY_7qG2_000
+6	108	130	#line 108 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	108	130	#line 108 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	114	130	#line 114 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+6	115	130		subret __goToCoordinate_return
+7	258	0	#line 258 "C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc"
+7	259	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc
+1	PlaySound	599	NXCDefs.h
+2	testRoute	998	C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc
+3	rotateMotorToDegree	1070	C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc
+4	checkMessage	1108	C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc
+5	rotateMotorsToDegrees	1399	C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc
+6	goToCoordinate	1466	C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc
+7	__initialize_global_data	1598	C:\Users\stan\Desktop\Lund\LegoRobotRuzzle\Opencv_WebCa\NXT\Working_with_bluetooth.nxc

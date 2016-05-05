@@ -1,0 +1,255 @@
+int moves[];
+int lengthAllRoutes = 0;
+
+int degreeBetweenXTile= 92; //This value defines the standard value to step between tiles
+int degreeBetweenYTile = -80;
+int oldX = -10; //Saves last X-position
+int oldY = -10; //Saves last Y-position
+int X0=0;
+int Y0=0;
+
+long startTime;
+int continueExecutionFlag = 1;
+string allRoutes;
+bool newRoute = false;
+int INBOX = 0;
+int OUTBOX = 10;
+
+
+
+sub testRoute() {
+     //allRoutes = "1142233323130211222500";
+    //allRoutes = "00112233221100";
+   // allRoutes = "00011100"; //Traverse the whole board
+
+
+    //4 = new word
+    //5 = end of word
+
+    lengthAllRoutes = StrLen(allRoutes);
+    ArrayInit(moves, 0, lengthAllRoutes);
+
+    for (int i = 0; i < lengthAllRoutes; i++) { //Convert routes-string to int
+        moves[i] = StrToNum(SubStr(allRoutes, i, 1));
+    }
+}
+
+
+sub rotateMotorToDegree(int motor, int degree) {
+    PosRegSetAngle(motor, degree);
+    while (MotorTachoCount(motor) != degree) {      //This while-loop ensures that the motor are at the exact degree
+        Wait(1);
+    }
+}
+
+sub checkMessage() {
+    string in, out, buffer, buffer1;
+    bool checkPath = false;
+    bool checkInformation = false;
+    buffer1 = "";
+    /*This wont work, must be rewritten together with Sam*/
+    do{
+    char result = ReceiveMessage(INBOX, true, buffer);
+       if (result == 0) {
+           if(checkPath){
+                buffer1 = StrCat(buffer1, buffer);
+           }
+           if(checkInformation){
+
+           }
+           if(buffer == "START"){
+                TextOut(0, LCD_LINE3, "Starting connection");
+                checkPath = true;
+                newRoute = true;
+                SendMessage (OUTBOX, "CTS");
+                ClearLine(LCD_LINE1);
+
+           }
+           else if(buffer == "MOVEOUT"){
+                rotateMotorToDegree(OUT_A, -410);
+           }
+           else if(buffer == "MOVEIN"){
+           rotateMotorToDegree(OUT_A, 0);
+
+           }
+           else if(buffer == "END"){
+             TextOut(0, LCD_LINE5, "End of connection");
+             allRoutes = buffer1;
+             testRoute();
+             checkPath = false;
+           }
+    }
+    else {
+         TextOut(10, LCD_LINE1, "empty mailbox");
+    }
+    }while(checkPath)
+}
+
+
+
+sub rotateMotorsToDegrees(int motorA, int degreeA, int motorB, int degreeB) {
+    PosRegSetAngle(motorA, degreeA);
+    PosRegSetAngle(motorB, degreeB);
+    while (MotorTachoCount(motorA) != degreeA && MotorTachoCount(motorB) != degreeB) { //This while-loop ensures that the motors are at the exact degree
+        Wait(1);
+    }
+}
+
+sub goToCoordinate(int sX, int sY) {
+    if (sX == oldX && sY != oldY) { //If new x-coordinate is the same as the old one, only move motor for x
+        rotateMotorToDegree(OUT_A, -sY * degreeBetweenYTile);
+    } else if (sY == oldY && sX != oldX) { //If new y-coordinate is the same as the old one, only move motor for x
+        rotateMotorToDegree(OUT_C, -sX * degreeBetweenXTile);
+    } else { //Move both motors
+        rotateMotorsToDegrees(OUT_C, -sX * degreeBetweenXTile, OUT_A, -sY * degreeBetweenYTile);
+    }
+    oldX = sX;
+    oldY = sY;
+}
+
+
+
+
+
+task timeKeeping() //A thread counting the time. Runs for 120 sec or when the red button is pressed.
+{
+    startTime = CurrentTick();
+    while (1) {
+        if (ButtonPressed(BTNCENTER, true) ) {
+            continueExecutionFlag = 0;
+        }
+        long deltaTime = CurrentTick() - startTime;
+        if (deltaTime > 120 * 1000) {
+            continueExecutionFlag = 0;
+        }
+        Wait(1000);
+    }
+    
+}
+
+task main() {
+
+    SetMotorRegulationTime(MS_10); //Set regulation time to 10 ms
+    SetMotorRegulationOptions(OUT_REGOPTION_NO_SATURATION);
+    PosRegSetMax(OUT_A, 100, 100); //Speed and acceleration limits for Output 1
+    PosRegSetMax(OUT_B, 100, 100); //Speed and acceleration limits for Output 2
+    PosRegSetMax(OUT_C, 100, 100); //Speed and acceleration limits for Output 3
+    
+    PosRegEnable(OUT_A,PID_3,PID_1,PID_1); //Enable absolute position regulation with PID. Can also be set with different PID values with: PosRegEnable(OUT_X,P,I,D);
+    PosRegEnable(OUT_B);
+    PosRegEnable(OUT_C,PID_3,PID_1,PID_1);
+
+    //testRoute();
+    while(true){
+                checkMessage();
+                int X = 0;
+                int Y = 0;
+                if(newRoute){
+                             newRoute = false;
+                             for (int i = 0; i < lengthAllRoutes; i++) {
+                                 if (moves[i] ==4){
+                                    rotateMotorToDegree(OUT_B, 0);
+                                 }else if(moves[i] ==5){
+                                       rotateMotorToDegree(OUT_B, -100);
+                                 }else{
+                                 int x = moves[i];
+                                 int y = moves[i + 1];
+                                 X=x;
+                                 Y=y;
+                                 goToCoordinate(x, y);
+                                 i++;
+                                 }
+                                 checkMessage();
+                                 if(newRoute){
+												//first we put back the styles to the 0,0 position
+                                              while(X != 0 || Y!= 0){
+                                                      if(X != 0) X-=1;
+                                                      if(Y != 0) Y-=1;
+                                                      goToCoordinate(X, Y);
+                                              }
+                                              break;
+                                 }
+                             }
+							 //The styles come back to 0,0 position at the end of the path
+                             while(X != 0 || Y!= 0){
+                                                      if(X != 0) X-=1;
+                                                      if(Y != 0) Y-=1;
+                                                      goToCoordinate(X, Y);
+                             }
+
+
+                PlaySound(SOUND_UP);
+                //Wait(100);
+                }
+    }
+
+
+     /*
+    while(true) {
+        testRoute();
+        
+
+        StartTask(timeKeeping);
+    
+        bool down = false;
+        int wordIndex = 0;
+        for (int i = 0; i < lengthAllRoutes; i++) {
+            if (continueExecutionFlag == 0) {
+                break;
+            }
+            ClearScreen();
+            int letter = moves[i];
+                
+            if (moves[i] == 4) {
+                //Mark a new work
+            } else if (moves[i] == 5) {
+                wordIndex++;
+                rotateMotorToDegree(OUT_B, 0);  //Moves stylus up
+                down = false;
+            } else {
+                int x = moves[i];   
+                int y = moves[i + 1]; //Coordinates always come in pairs
+                NumOut(0, LCD_LINE1, i);
+                NumOut(50, LCD_LINE7, wordIndex);                    
+                NumOut(0, LCD_LINE3, x);
+                NumOut(20, LCD_LINE3, y);
+                NumOut(0, LCD_LINE5, oldX);
+                NumOut(20, LCD_LINE5, oldY);
+                switch(y){
+                    case 0: 
+                        TextOut(x*10 + 50,LCD_LINE1,"x");
+                        break;
+                    case 1:
+                        TextOut(x*10 + 50,LCD_LINE2,"x");
+                        break;
+                    case 2:
+                        TextOut(x*10 + 50,LCD_LINE3,"x");
+                        break;
+                    case 3:
+                        TextOut(x*10 + 50,LCD_LINE4,"x");
+                        break;
+                }
+                goToCoordinate(x, y);
+                if (!down) {
+                    rotateMotorToDegree(OUT_B, 20); //Moves stylus down
+                    down = true;
+                }
+                i++;
+            }
+        }
+
+        rotateMotorToDegree(OUT_B, 0);
+        rotateMotorToDegree(OUT_A, 0);
+        rotateMotorToDegree(OUT_C, 0);
+
+        PlaySound(SOUND_UP);
+        PlaySound(SOUND_UP);
+        PlaySound(SOUND_UP);
+        
+        StopTask(timeKeeping);
+
+    }
+    */
+
+
+}
